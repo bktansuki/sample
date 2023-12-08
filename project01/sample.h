@@ -1,16 +1,14 @@
 #pragma once
 
 namespace yugen {
-namespace sample {
+	namespace sample {
 
-class Sample {
- public:
-  Sample() = default;
+		class Sample {
+		public:
+			Sample() = default;
 
-  int AddNumbers(int a, int b);
-  int MinusNumbers(int a, int b);
-  int MultiplyNumbers(int a, int b);
-};
+			int AddNumbers(int a, int b);
+		};
 
-}  // namespace sample
+	}  // namespace sample
 }  // namespace yugen
