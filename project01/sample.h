@@ -8,7 +8,7 @@ class Sample {
   Sample() = default;
 
   int AddNumbers(int a, int b);
-  int MinusNumber(int a, int b);
+  int MinusNumbers(int a, int b);
   int MultiplyNumber(int a, int b);
 };
 
