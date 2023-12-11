@@ -7,9 +7,9 @@ class Sample {
  public:
   Sample() = default;
 
-  int AddNumbers(int a, int b);
+  int AddNumbers(int num1, int num2);
 
-  int MinusNumbers(int a, int b);
+  int MinusNumbers(int num1, int num2);
 };
 
 }  // namespace sample
