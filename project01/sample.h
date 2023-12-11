@@ -8,6 +8,8 @@ namespace yugen {
 			Sample() = default;
 
 			int AddNumbers(int a, int b);
+
+            int MultiplyNumbers(int a, int b);
 		};
 
 	}  // namespace sample
