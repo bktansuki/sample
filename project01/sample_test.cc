@@ -11,5 +11,10 @@ TEST(SampleTest, Plus) {
   EXPECT_EQ(result, 2);
 }
 
+TEST(SampleTest, Divide) {
+  Sample sample;
+  int result = sample.DivideNumbers(1, 1);
+  EXPECT_EQ(result, 1);
+}
 }  // namespace sample
 }  // namespace yugen
