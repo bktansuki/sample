@@ -7,6 +7,8 @@ class Sample {
  public:
   Sample() = default;
 
+  int MinusNumbers(int num1, int num2);
+
   int AddNumbers(int a, int b);
 
   int MultiplyNumbers(int a, int b);
