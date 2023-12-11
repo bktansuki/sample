@@ -1,14 +1,15 @@
 #include "sample.h"
+
 #include "gtest/gtest.h"
 
 namespace yugen {
-	namespace sample {
+namespace sample {
 
-		TEST(SampleTest, Plus) {
-			Sample sample;
-			int result = sample.AddNumbers(1, 1);
-			EXPECT_EQ(result, 2);
-		}
+TEST(SampleTest, Plus) {
+  Sample sample;
+  int result = sample.AddNumbers(1, 1);
+  EXPECT_EQ(result, 2);
+}
 
-	}  // namespace sample
+}  // namespace sample
 }  // namespace yugen
