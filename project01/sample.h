@@ -13,7 +13,7 @@ class Sample {
 
   int MultiplyNumbers(int a, int b);
 
-  int DivideNumber(int num1, int num2);
+  int DivideNumbers(int num1, int num2);
 };
 
 }  // namespace sample
