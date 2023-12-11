@@ -11,5 +11,13 @@ TEST(SampleTest, Plus) {
   EXPECT_EQ(result, 2);
 }
 
+TEST(SampleTest, Multiply) {
+  Sample sample;
+  int result = sample.MultiplyNumbers(2, 3);
+  EXPECT_EQ(result, 6);
+}
+
+}
+
 }  // namespace sample
 }  // namespace yugen
