@@ -33,7 +33,7 @@ class StopWatch {
   void ResetValue();
 
   // get triggered_ variable
-  void get_is_triggered() const;
+  bool is_triggered() const;
 };
 
 }  // namespace StopWatchLai
