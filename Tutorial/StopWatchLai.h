@@ -11,7 +11,7 @@ class StopWatch {
   // elapsed_ in milliseconds will increase at every event.
   long elapsed_;
 
-  // triggered_ is set to true if StopWatch hits limit value
+  // triggered_ is set to true if StopWatch hits end_time value
   bool triggered_;
 
  public:
