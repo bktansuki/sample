@@ -1,5 +1,5 @@
 ﻿# create io_port library
-add_library(sample sample.cc "StopWatchLai.h")
+add_library(sample sample.cc "stopwatch.h")
 target_include_directories(sample INTERFACE ${CMAKE_CURRENT_SOURCE_DIR})
 target_link_libraries(
 	sample
@@ -9,8 +9,7 @@ target_link_libraries(
 
 # create io_port test executable
 add_executable(
-  sample_test sample_test.cc
- "StopWatchLai.h")
+  sample_test sample_test.cc)
 
 target_link_libraries(
   sample_test

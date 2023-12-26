@@ -1,7 +1,7 @@
 #pragma once
 // Functionality to measure the duration (millisecond) of event takes place
 namespace yugen {
-namespace StopWatchLai {
+namespace stopwatch {
 
 class StopWatch {
  private:
@@ -33,8 +33,8 @@ class StopWatch {
   void ResetValue();
 
   // get triggered_ variable
-  void get_is_triggered() const;
+  bool is_triggered() const;
 };
 
-}  // namespace StopWatchLai
+}  // namespace stopwatch
 }  // namespace yugen
