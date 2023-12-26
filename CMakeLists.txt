@@ -8,7 +8,7 @@ add_library(compiler_flags INTERFACE)
 target_compile_features(compiler_flags INTERFACE cxx_std_17)
 
 # add subdirectories
-add_subdirectory(project01)
+add_subdirectory(Tutorial)
 
 
 
